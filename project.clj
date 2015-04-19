@@ -1,4 +1,4 @@
-(defproject lein-lessjs "0.1.0"
+(defproject lein-lessjs "0.1.0-SNAPSHOT"
   :description "LESS autobuilder plugin"
   :url "https://github.com/tuhlmann/lein-lessjs"
   :license {:name "Eclipse Public License - v 1.0"
