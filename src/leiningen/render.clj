@@ -10,7 +10,7 @@
         dest-path (.getPath dest-file)]
 
     (concat ["lessc"]
-             (if source-maps ["--source-map"] [])
+             (if source-maps ["--source-map" "--source-map-less-inline"] [])
              (if compress ["--compress"] [])
              [src-path dest-path])))
 
@@ -21,7 +21,9 @@
     (let [opts-vec (build-command-vec src-file dest-file options)]
       (println (str "  [lessc] - " (.getName src-file)))
       ;;(println opts-vec)
-      (apply shell/sh opts-vec))))
+      (let [result (apply shell/sh opts-vec)]
+        (when (not= 0 (:exit result))
+          (println "Error running lessc on " src-file "\n" (:err result)))))))
 
 (defn render-once!
   [options]
