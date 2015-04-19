@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module cursive.leiningen.project.LeiningenProjectsManager.isLeinModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/dev-resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="jdk 1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Leiningen: clojure-complete:0.2.3" level="project" />
+    <orderEntry type="library" name="Leiningen: com.cemerick/pomegranate:0.2.0" level="project" />
+    <orderEntry type="library" name="Leiningen: me.raynes/fs:1.4.6" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.6.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.6" level="project" />
+    <orderEntry type="library" name="Leiningen: speclj:2.5.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.wagon/wagon-http:2.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.wagon/wagon-provider-api:2.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-aether-provider:3.0.4" level="project" />
+    <orderEntry type="library" name="Leiningen: org.sonatype.aether/aether-api:1.13.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.sonatype.aether/aether-connector-file:1.13.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.sonatype.aether/aether-connector-wagon:1.13.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.sonatype.aether/aether-impl:1.13.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.sonatype.aether/aether-util:1.13.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.tcrawley/dynapath:0.2.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpclient:4.1.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpcore:4.1.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven.wagon/wagon-http-shared4:2.2" level="project" />
+    <orderEntry type="library" name="Leiningen: commons-codec:1.4" level="project" />
+    <orderEntry type="library" name="Leiningen: commons-io:2.0.1" level="project" />
+    <orderEntry type="library" name="Leiningen: commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.jsoup/jsoup:1.6.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-model-builder:3.0.4" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-model:3.0.4" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.maven/maven-repository-metadata:3.0.4" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-component-annotations:1.5.5" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-interpolation:1.14" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-classworlds:2.4" level="project" />
+    <orderEntry type="library" name="Leiningen: org.codehaus.plexus/plexus-utils:2.0.7" level="project" />
+    <orderEntry type="library" name="Leiningen: org.sonatype.sisu/sisu-inject-plexus:2.2.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.sonatype.sisu/sisu-inject-bean:2.2.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.sonatype.sisu/sisu-guice:3.0.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.sonatype.aether/aether-spi:1.13.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.apache.commons/commons-compress:1.8" level="project" />
+    <orderEntry type="library" name="Leiningen: org.tukaani/xz:1.5" level="project" />
+    <orderEntry type="library" name="Leiningen: fresh:1.0.2" level="project" />
+    <orderEntry type="library" name="Leiningen: mmargs:1.2.0" level="project" />
+  </component>
+</module>

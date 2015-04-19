@@ -1,0 +1,6 @@
+/target/
+/.idea/
+/resources/
+/.lein-failures
+/.lein-repl-history
+/pom.xml
